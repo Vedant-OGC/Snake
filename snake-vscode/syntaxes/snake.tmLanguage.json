@@ -1,0 +1,33 @@
+{
+  "scopeName": "source.snake",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#strings" },
+    { "include": "#keywords" },
+    { "include": "#numbers" },
+    { "include": "#operators" }
+  ],
+  "repository": {
+    "comments": {
+      "match": "#.*$",
+      "name": "comment.line.number-sign.snake"
+    },
+    "strings": {
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.quoted.double.snake"
+    },
+    "keywords": {
+      "match": "\\b(let|say|if|else|loop|func|input)\\b",
+      "name": "keyword.control.snake"
+    },
+    "numbers": {
+      "match": "\\b[0-9]+(\\.[0-9]+)?\\b",
+      "name": "constant.numeric.snake"
+    },
+    "operators": {
+      "match": "(==|!=|>=|<=|[+\\-*/><])",
+      "name": "keyword.operator.snake"
+    }
+  }
+}
