@@ -69,6 +69,4 @@ greet
 
 Snake source files use the `.snk` extension.
 
-## License
 
-MIT
