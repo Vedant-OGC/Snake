@@ -1,0 +1,6 @@
+func greet:
+    say "Hello, World!"
+    let z = 5 + 10
+    say "The result of 5 + 10 is: " , z
+
+greet

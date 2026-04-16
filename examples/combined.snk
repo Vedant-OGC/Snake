@@ -1,0 +1,11 @@
+# Full feature demo
+let x = 5
+
+func check:
+    if x > 3:
+        say "x passes the check"
+    else:
+        say "x is too small"
+
+loop x:
+    check

@@ -1,0 +1,5 @@
+func greet:
+    say "Hello from a function!"
+
+loop 2:
+    greet
