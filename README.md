@@ -1,5 +1,7 @@
 # Snake 🐍
+
 https://github.com/Vedant-OGC/Snake/blob/main/snake-vscode/icons/snake-icon1.png
+
 A beginner-friendly, Python-hosted interpreted programming language.
 
 ## Features
